@@ -49,13 +49,13 @@ export default function Home() {
   };
   return (
     <main className="">
-      <section className='lg:bg-bannerImg bg-phoneBannerImg bg-no-repeat bg-cover bg-bottom w-full h-screen '>
+      <section className='lg:bg-bannerImg bg-phoneBannerImg bg-no-repeat bg-cover bg-bottom h-screen w-full'>
         <div className='md:w-2/3'>
           <div className="font-bold text-white md:w-1/2 w-full md:text-5xl text-3xl flex justify-center items-center h-screen">
             <div className='text-center mt-48 lg:mt-0'>
               <span className=''>
                 <div className='text-transparent bg-clip-text bg-gradient-to-r from-darkBlu to-lightBlu'>
-                  Sveiki aš{" "}
+                  Sveiki, aš{" "}
                 </div>
                 <TypeAnimation
                   className='flex text-center'
@@ -64,7 +64,7 @@ export default function Home() {
                     1000,
                     "Būsimas",
                     500,
-                    "Aušros prezidentas",
+                    'Aušros prezidentas',
                     1000,
                   ]}
                   wrapper='span'
@@ -94,7 +94,7 @@ export default function Home() {
         </div>
         <br />
         <div data-aos="fade-up" className='pb-8 text-mainText'>
-          Tapęs mokyklos prezidentu, sieksiu įgyvendinti kelis svarbius pokyčius, kurie pagerins mūsų mokyklos gyvenimą. Pirmiausia planuoju skaitmenizuoti balsavimo procesą – tai leis mokiniams patogiai ir greitai išreikšti savo nuomonę įvairiais klausimais, skatins skaidrumą ir sąžiningą sprendimų priėmimą. Taip pat noriu organizuoti daugiau renginių mokykloje. Galiausiai žadu atsižvelgti į daugumos poreikius ir norus bei stengtis juos įgyvendinti – man svarbu, kad kiekvienas jaustųsi išgirstas ir dalyvautų mokyklos gyvenime.
+          Tapęs mokyklos prezidentu, sieksiu įgyvendinti kelis svarbius pokyčius, kurie pagerins mūsų mokyklos gyvenimą. Pirmiausia planuoju skaitmenizuoti balsavimo procesą – tai leis mokiniams patogiai ir greitai išreikšti savo nuomonę įvairiais klausimais, skatins skaidrumą ir sąžiningą sprendimų priėmimą. Taip pat stengsiuosi glaudžiai bendradarbiauti su mokinių savivaldos taryba, kad galėtume kurti mokyklą geresnę vietą visiems. Organizuosiu atvirų durų dienas, kurios suteiks mokiniams galimybę pristatyti mūsų mokyklą ir taip prisidėti prie jos reputacijos gerinimo. Siekdamas praturtinti mokyklos gyvenimą, skatinsiu įvairias popamokines veiklas, kurios leis mokiniams ugdyti savo gebėjimus, atrasti naujus interesus ir stiprinti bendruomenės ryšius. Taip pat planuoju pakviesti alumnus (buvusius gimnazijos mokinius), kad jie galėtų pasidalinti savo patirtimi ir padėti mokiniams pasirinkti tinkamą karjeros kelią. Sieksiu pagerinti ir esamų renginių kokybę, kad jie labiau atitiktų daugumos norus. Galiausiai žadu atsižvelgti į daugumos poreikius bei norus ir stengtis juos įgyvendinti – man svarbu, kad kiekvienas jaustųsi išgirstas ir dalyvautų mokyklos gyvenime.
         </div> 
         <br />
       </div>
