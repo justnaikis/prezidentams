@@ -26,16 +26,13 @@ export default function RootLayout({
   return (
     <div>
       Tvarkoma
-      /* 
       <html lang="en">
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
-          {children}
+          {/*children*/}
         </body>
       </html>
-       */
-      
     </div>
   );
 }
